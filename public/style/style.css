@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ebece8;
+}
+
+
+h1 {
+  margin: 0;
+}
+
+.all-photos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo {
+  margin: 15px; 
+  position: relative;
+  width : 270px;
+  display: flex;
+  justify-content: center;
+}
+
+.icone-partager{
+  position: absolute;
+  top: 140px;
+  left: 15px;
+  display: flex;
+}
+.icone-partager-2{
+  position: absolute;
+  top: 250px;
+  left: 1px;
+  display: flex;
+}
+
+.icone-download{
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  display: flex;
+}
+.icone-download-2{
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  display: flex;
+}
+
+.icone-like{
+  position: absolute;
+  top: 10px;
+  left: 230px;
+  display: flex;
+}
+.icone-like-2{
+  position: absolute;
+  top: 20px;
+  left: 290px;
+  display: flex;
+}
+
+.actions img {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+footer{
+  background-color: royalblue;
+  position:fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.add-button {
+  background-color:gray;
+  color: white;
+  font-size: 24px;
+  border: none;
+  border-radius: 50%;
+  padding: 15px 20px;
+  
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  width: 100%;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.modif-solo{
+  width: 430px;
+  height: 300px;
+  margin-top: unset;
+}
